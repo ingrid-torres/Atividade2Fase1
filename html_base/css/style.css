@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #050505;
+    color: #ebf5ee;
+}
+
+.titulo-destaque {
+    color: #f51450;
+}
+
+.menu {
+    margin: 10% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu__conteudo {
+    width: 615px;
+    display: flex ;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.menu__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu__conteudo__texto {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.menu__conteudo__botao {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+
+.menu__estilo__botao {
+    background-color: #f31852;
+    width: 280px;
+    border-radius: 16px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #fff9f9;
+}
+
+.imagem {
+    width: 500px;
+    display: flex ;
+    flex-direction: column;
+    gap: 40px;
+    border-style: solid;
+    border-color: #ebf5ee;
+    border-block-end-width: 50px;
+}
